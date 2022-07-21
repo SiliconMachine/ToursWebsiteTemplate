@@ -115,7 +115,7 @@ nav {
 .hero {
     width: 100%;
     height: 80vh;
-    background: linear-gradient(135deg, rgba(49, 24, 131, 0.9) 0%, rgba(72, 56, 149, 0.8)), url('images/header-bg.jpg') center no-repeat;
+    background: linear-gradient(135deg, rgba(49, 24, 131, 0.9) 0%, rgba(72, 56, 149, 0.8)), url('../images/header-bg.jpg') center no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -127,7 +127,7 @@ nav {
     bottom: -3px;
     width: 100%;
     height: 4.7rem;
-    background: url('images/wave-small.png') center no-repeat;
+    background: url('../images/wave-small.png') center no-repeat;
     background-size: cover;
 }
 
@@ -225,15 +225,15 @@ nav {
 }
 
 .star-gazing {
-    background: url('images/stars.jpg') center no-repeat;
+    background: url('../images/stars.jpg') center no-repeat;
 }
 
 .hiking {
-    background: url('images/hiking.jpg') center no-repeat;
+    background: url('../images/hiking.jpg') center no-repeat;
 }
 
 .camping {
-    background: url('images/camping.jpg') center no-repeat;
+    background: url('../images/camping.jpg') center no-repeat;
 }
 
 .activities-grid-item i {
@@ -253,7 +253,7 @@ nav {
 .testimonials {
     width: 100%;
     height: 80vh;
-    background: linear-gradient(135deg, rgba(49, 24, 131, 0.9) 0%, rgba(72, 56, 149, 0.8)), url('images/testimonials-bg.jpg') center no-repeat fixed;
+    background: linear-gradient(135deg, rgba(49, 24, 131, 0.9) 0%, rgba(72, 56, 149, 0.8)), url('../images/testimonials-bg.jpg') center no-repeat fixed;
     background-size: cover;
     position: relative;
 }
@@ -265,7 +265,7 @@ nav {
     left: 0;
     width: 100%;
     height: 4.7rem;
-    background: url("images/wave-small-reversed.png") center no-repeat;
+    background: url("../images/wave-small-reversed.png") center no-repeat;
     background-size: cover;
 }
 
@@ -334,12 +334,12 @@ footer {
 @media screen and (min-width: 470px) {
     .hero::before {
         height: 9.4rem;
-        background: url('images/wave-medium.png');
+        background: url('../images/wave-medium.png');
         background-size: cover;
     }
     .testimonials::before {
         height: 9.4rem;
-        background: url('images/wave-medium-reversed.png');
+        background: url('../images/wave-medium-reversed.png');
         background-size: cover;
     }
 }
@@ -405,12 +405,12 @@ footer {
 @media screen and (min-width: 950px) {
     .hero::before {
         height: 15rem;
-        background: url("images/wave-large.png");
+        background: url("../images/wave-large.png");
         background-size: cover;
     }
     .testimonials::before {
         height: 22.7rem;
-        background: url('images/wave-large-reversed.png');
+        background: url('../images/wave-large-reversed.png');
         background-size: cover;
     }
     .testimonial {
